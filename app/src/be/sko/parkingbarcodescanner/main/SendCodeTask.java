@@ -2,7 +2,9 @@ package be.sko.parkingbarcodescanner.main;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -26,6 +28,10 @@ public class SendCodeTask extends AsyncTask<String, Void, Boolean> {
 
     protected Boolean doInBackground(final String... args) {
         try {
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(caller);
+            String apiKey = sharedPref.getString("pref_apikey", "");
+            Log.e("tag", "error " + apiKey);
+
             return true;
         } catch (Exception e) {
             Log.e("tag", "error", e);
