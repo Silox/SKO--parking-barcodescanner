@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SK2013 Parkingbarcodescanner</string>
+    
+    <!-- Network availability -->
+    <string name="no_network_title">No network</string>
+    <string name="no_network">No network available - please connect and relaunch the app.</string>
+    
+    <!-- Scan -->
+    <string name="scan_button">Scan</string>
+</resources>

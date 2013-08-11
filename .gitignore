@@ -9,12 +9,22 @@
 *.class
 
 # generated files
-bin/
-gen/
+app/bin/
+app/gen/
 
 # Local configuration file (sdk path, etc)
-local.properties
+app/local.properties
 
 # Eclipse project files
 .classpath
 .project
+/app/nbandroid/
+/app/libs/zxing-2.2/gen/
+/app/libs/zxing-2.2/bin/
+/app/libs/zxing-2.2/nbandroid/
+/app/libs/zginx-2.2-android/bin/
+/app/libs/zginx-2.2-android/gen/
+/app/libs/zginx-2.2-android/nbandroid/
+/app/libs/xzing-2.2-android/bin/
+/app/libs/xzing-2.2-android/gen/
+/app/libs/xzing-2.2-android/nbandroid/
