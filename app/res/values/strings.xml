@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Activity names -->
     <string name="app_name">SK2013 Parkingbarcodescanner</string>
+    <string name="pref_name">Preferences</string>
     
     <!-- Network availability -->
     <string name="no_network_title">No network</string>
@@ -8,4 +10,9 @@
     
     <!-- Scan -->
     <string name="scan_button">Scan</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title">Preferences</string>
+    <string name="pref_apikey">API key</string>
+    <string name="pref_apikey_summ">No idea what this is? Ask Tom from Box Office!</string>
 </resources>

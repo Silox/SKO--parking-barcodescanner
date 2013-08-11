@@ -1,8 +1,3 @@
-/**
- *
- * @author Tom Naessens Tom.Naessens@UGent.be 3de Bachelor Informatica Universiteit Gent
- *
- */
 package be.sko.parkingbarcodescanner.main;
 
 import android.app.Activity;

@@ -16,6 +16,9 @@ app/gen/
 app/local.properties
 
 # Eclipse project files
+/app/.idea/
+*.iml
+*.iws
 .classpath
 .project
 /app/nbandroid/
@@ -28,3 +31,4 @@ app/local.properties
 /app/libs/xzing-2.2-android/bin/
 /app/libs/xzing-2.2-android/gen/
 /app/libs/xzing-2.2-android/nbandroid/
+/app/libs/actionbarsherlock/target/
